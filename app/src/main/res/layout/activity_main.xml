@@ -15,7 +15,9 @@
         android:layout_height="wrap_content"
         android:text="Android Workshop"
         android:textSize="20sp"
-        android:gravity="center" />
+        android:gravity="center"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"/>
 
     <EditText
         android:layout_width="match_parent"
@@ -31,7 +33,8 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="LOGIN"/>
+        android:text="LOGIN"
+        android:background="@color/colorPrimary"/>
 
 
 </LinearLayout>

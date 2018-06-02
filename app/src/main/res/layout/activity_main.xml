@@ -20,12 +20,14 @@
         android:textStyle="bold"/>
 
     <EditText
+        android:id="@+id/username"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="70dp"
         android:hint="Username"/>
 
     <EditText
+        android:id="@+id/password"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Password"/>
@@ -34,6 +36,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="LOGIN"
+        android:onClick="login"
         android:background="@color/colorPrimary"/>
 
 
